@@ -79,6 +79,203 @@ body {
     display: none;
 }
 
+
+/*******Card After Slider Start****/
+.card-header img {
+    width: 100%;
+    height: 260px; 
+    object-fit: cover;
+}
+.card-footer {
+    padding: 0;
+}
+#btn-block-pink {
+    width: 100%;
+    padding: 9px;
+    background: pink;
+    color: #767676;
+    font-size: 19px;
+    font-weight: bold;
+    border: 12px solid pink;
+}
+#btn-block-green {
+    width: 100%;
+    padding: 9px;
+    background: rgb(24 114 7);
+    color: #cbc5c5;;
+    font-size: 19px;
+    font-weight: bold;
+    border: 12px solid rgb(24 114 7);
+}
+#btn-block-indigo {
+    width: 100%;
+    padding: 9px;
+    background: indigo;
+    color: #cbc5c5;;
+    font-size: 19px;
+    font-weight: bold;
+    border: 12px solid indigo;
+}
+#btn-block-yellow {
+    width: 100%;
+    padding: 9px;
+    background: #cbcb0c;
+    color: #727070;;
+    font-size: 19px;
+    font-weight: bold;
+    border: 12px solid #cbcb0c;
+}
+        
+#happy_client button a{
+    text-decoration: none;
+}
+/*******Card After Slider End****/
+
+
+
+
+/*******Package Card Start****/
+
+.package-card .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.package-card .card-text {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.package-card .speed-badge {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.package-card ul {
+    padding-left: 0;
+}
+
+.package-card ul li {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.package-card .price {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.price-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.price-buttons button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.price-buttons button.selfcare {
+    background-color: #0056b3;
+}
+
+.price-buttons button:hover {
+    background-color: #080808;
+}
+
+#price_heading h2 {
+    margin: 0px;
+    font-weight: bold;
+}
+#price_heading p {
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+/*******Package Card End ****/
+
+
+/*******Coverage Area ****/
+.text-column {
+    background-color: #065a33f5; 
+    padding: 2.5rem;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+.text-column h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.text-column p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-family: sans-serif;
+}
+.text-column button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    border-radius: 0.25rem;
+}
+.text-column button:hover {
+    background-color: #0056b3;
+}
+.image-column img {
+    border-radius: 0.25rem;
+}
+/*******Coverage Area Card End ****/
+
+
+/******* Happy Client Start ****/
+.card-img-top {
+    width: 100%;
+    height: 100px; 
+    object-fit: scale-down; 
+}
+/******* Happy Client End ****/
+
+/******* Footer Start ****/
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+.footer h5 {
+    margin-bottom: 20px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+.footer .social-icons a:hover {
+    color: #007bff;
+}
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+/******* Footer End ****/
 /* styles.css */
 @media screen and (max-width: 768px) {
     .menu-icon {

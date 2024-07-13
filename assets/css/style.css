@@ -522,7 +522,12 @@ tl-item.active .tl-dot:before {
 }
 
 /******* Contact Page End ****/
-
+#offer {
+    background-color: #f8f9fa;
+}
+#offer-card-footer{
+    padding: 12px;
+}
 
 /* styles.css */
 @media screen and (max-width: 768px) {

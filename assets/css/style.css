@@ -514,6 +514,16 @@ tl-item.active .tl-dot:before {
             font-weight: bold;
         }
 /*******Pay Page Style End****/
+
+
+/******* Contact Page ****/
+#contact {
+    background-color: #f8f9fa;
+}
+
+/******* Contact Page End ****/
+
+
 /* styles.css */
 @media screen and (max-width: 768px) {
     .menu-icon {
